@@ -4,7 +4,7 @@ import requests
 base_url = "https://aipwidgets.click/claw/Assets/Img/brain{}.gif"
 
 # Bejárás a számok között (0-tól 100-ig)
-for i in range(9):
+for i in range(8):
     url = base_url.format(i)
     try:
         response = requests.get(url, timeout=10)
